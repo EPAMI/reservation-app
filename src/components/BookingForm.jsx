@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 
-export default function BookingForm() {
+export  const BookingForm=() =>{
     const [name,setName] = useState ("");
     const [date, setDate] = useState("");
     const handleSubmit = () =>{}
